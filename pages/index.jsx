@@ -35,10 +35,10 @@ export default function Home() {
               Get a 501(c)(3) tax-deductible receipt
             </p>
             <h1 className="my-4 text-5xl font-bold leading-tight">
-              We&aposre collecting used laptops for 1000+ families in need.
+              We&apos;re collecting used laptops for 1000+ families in need.
             </h1>
             <p className="leading-normal text-2xl mb-8">
-              Kids and teens around the world are struggling with their homework because they don&apost have access to computers.
+              Kids and teens around the world are struggling with their homework because they don&apos;t have access to computers.
             </p>
             <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               Learn More
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="flex flex-wrap">
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Change a Student&aposs Life
+                Change a Student&apos;s Life
               </h3>
               <p className="text-gray-600 mb-8">
                 Give a student a laptop that they can use to do homework, study, or just have fun.
@@ -572,7 +572,7 @@ export default function Home() {
           <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <h3 className="my-4 text-3xl leading-tight">
-          Clear out your shelves of your old laptops. We&aposll take care of the rest.
+          Clear out your shelves of your old laptops. We&apos;ll take care of the rest.
         </h3>
         <button onClick={handleClick} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Drop off or send your laptops!
