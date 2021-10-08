@@ -2,11 +2,9 @@ import React from 'react';
 
 import Head from 'next/head';
 import Script from 'next/script';
-
+import Link from 'next/link'
 export default function Home() {
- const handleClick = () => {
-    window.open("https://forms.gle/Sf3DDRHpDsLfQSyj7");
-  };
+
   return (
   <html lang="en">
     <Head>
@@ -574,9 +572,11 @@ export default function Home() {
         <h3 className="my-4 text-3xl leading-tight">
           Clear out your shelves of your old laptops. We&apos;ll take care of the rest.
         </h3>
-        <button onClick={handleClick} className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+<Link href="https://forms.gle/Sf3DDRHpDsLfQSyj7" passHref>      
+<button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Drop off or send your laptops!
         </button>
+        </Link>
       </section>
       {/* <!--Footer--> */}
       <footer className="bg-white">
