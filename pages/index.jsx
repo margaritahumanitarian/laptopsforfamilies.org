@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-wrap">
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Change a Student's Life
+                Change a Student&apos;s Life
               </h3>
               <p className="text-gray-600 mb-8">
                 Give a student a laptop that they can use to do homework, study, or just have fun.
@@ -529,7 +529,7 @@ export default function Home() {
           <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <h3 className="my-4 text-3xl leading-tight">
-          Clear out your shelves of your old laptops. We'll take care of the rest.
+          Clear out your shelves of your old laptops. We&apos;ll take care of the rest.
         </h3>
         <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Drop off or send your laptops!

@@ -8,6 +8,21 @@ Over 1000 families in Los Angeles County don't have access to technology at home
 
 Have a bug or an issue with this website? [Open a new issue](https://github.com/margaritahumanitarian/laptopsforfamilies.org/issues) here on GitHub.
 
+## Contributing and installation
+
+If you would like to help us with this project you can learn more from  our [CONTRIBUTING](CONTRIBUTING.md) file.
+
+## Community
+
+Our community is made up of people from all over the world, so times when people are active online vary.
+
+Come say hi in:
+
+- Our [Discord server](https://discord.gg/WsmqrcGqyE)
+
+We're still getting this started, so be patient and hang around if no one's there.
+Soon it'll get more active.
+
 ## Copyright and License
 
 Copyright 2021 Margarita Humanitarian Foundation. Credits:
