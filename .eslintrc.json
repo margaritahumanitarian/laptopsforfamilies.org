@@ -1,3 +1,61 @@
 {
-  "extends": "next/core-web-vitals"
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "prettier",
+        "plugin:prettier/recommended",
+        "next"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "never"
+            }
+        ],
+        "prefer-template": ["error"],
+        "react/button-has-type": ["error"],
+        "react/display-name": ["off"],
+        "react/jsx-max-depth": ["off"],
+        "react/jsx-no-literals": ["error"],
+        "react/jsx-props-no-spreading": ["off"],
+        "react/jsx-sort-props": ["error"],
+        "react/no-multi-comp": ["error", { "ignoreStateless": true }],
+        "react/require-default-props": ["off"],
+        "react/self-closing-comp": ["error"],
+        "semi": ["error", "always"],
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": false,
+                "ignoreDeclarationSort": false,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+                "allowSeparatedGroups": true
+            }
+        ]
+    }
 }
