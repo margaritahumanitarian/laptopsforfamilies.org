@@ -610,7 +610,7 @@ export default function Home() {
               <p className="uppercase text-gray-500 md:mb-6">Legal</p>
               <ul className="list-reset mb-6">
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a href="terms" className="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                  <a href="/terms" className="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
                 </li>
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a href="#" className="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
@@ -638,7 +638,7 @@ export default function Home() {
                   <a href="https://margaritahf.wixsite.com/blog" className="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
                 </li>
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                  <a href="about-us" className="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                  <a href="/about-us" className="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
                 </li>
                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                   <a href="#" className="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
