@@ -3,7 +3,7 @@ import React from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 
-export default function About() {
+export default function Terms() {
 	return(
 	<html lang="en">
 	    <Head>
@@ -11,7 +11,7 @@ export default function About() {
 	      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
 	      <title>
-	      About Us
+	      Terms
 	      </title>
 	      <meta name="description" content="" />
 	      <meta name="keywords" content="" />
@@ -49,7 +49,7 @@ export default function About() {
 			</svg>
 			<section className="container mx-auto text-center py-6 mb-12">
 				<h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-				About Us!
+				Terms and Conditions
 				</h1>
 				<div className="w-full mb-4">
 					<div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
