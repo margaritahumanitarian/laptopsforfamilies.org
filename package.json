@@ -15,7 +15,10 @@
     "stripe": "^8.168.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
   }
 }
